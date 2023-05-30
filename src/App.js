@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Greets from './components/greets';
+import Functionss from './components/functionss';
+import Mess from './components/mess';
+import List from './components/list';
+import Funmet from './components/funmet';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Greets/>*/}
+      {/*<Functionss/>*/}
+      <Mess/>
+      <List/>
+      <Funmet/>
     </div>
   );
 }
