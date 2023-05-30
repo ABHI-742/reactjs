@@ -1,5 +1,5 @@
 import React from 'react'
-import Person from '../Person'
+import Person from './Person'
 
 const personlis = () => 
 {
@@ -29,7 +29,7 @@ const personlis = () =>
             skill:"Java",
          }
    ]
-   const personlist=persons.map(person => <Person person={person}> </Person>)
+   const personlist=persons.map(person => <Person Key="id" person={person}> </Person>)
   return (
     <div>
          {personlist}
