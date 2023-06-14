@@ -20,6 +20,13 @@ import Refs from './components/Refs';
 import Counter from './components/Counter';
 import Clickcount from './components/Clickcount';
 import Hovercount from './components/Hovercount';
+import Hookcounter from './components/Hookcounter';
+import Hookobje from './components/Hookobje';
+import Hookarr from './components/Hookarr';
+import Useeffect from './components/Useeffect';
+import HookMouse from './components/HookMouse';
+import Timmer from './components/Timmer';
+import Fetchdata from './components/Fetchdata';
 
 function App() {
   return (
@@ -40,12 +47,19 @@ function App() {
      {/*<Framgment/>*/}
      {/*<Parentcomp/>*/}
      {/*<Refs/>*/}
-     <Counter render={(count,incrementCount)=>(
+     {/*<Counter render={(count,incrementCount)=>(
       <Clickcount count={count} incrementCount={incrementCount}/>
      )}/>
      <Counter render={(count,incrementCount)=>(
       <Hovercount count={count} incrementCount={incrementCount}/>
-     )}/>
+     )}/>*/}
+     {/*<Hookcounter/>*/}
+     {/*<Hookobje/>*/}
+     {/*<Hookarr/>*/}
+     {/*<Useeffect/>*/}
+     {/*<HookMouse/>*/}
+     {/* <Timmer/>*/}
+     <Fetchdata/>
     </div>
   );
 }
